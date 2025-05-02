@@ -53,6 +53,7 @@ Inside the /server folder, create a .env file and add the following:
 
 DATABASE_URL="postgresql://<DB_USER>:<DB_PASSWORD>@localhost:5432/<DB_NAME>"
 JWT_SECRET="your_jwt_secret_key"
+
 Replace <DB_USER>, <DB_PASSWORD>, and <DB_NAME> with your PostgreSQL credentials and database name.
 
 3. Set Up Prisma
